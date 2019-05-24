@@ -1,0 +1,683 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login.vue lifecycle hooks beforeUpdate callback 第1引数 isValid がバリデーションエラー(false)ならプロパティ validationResult に false を設定すること 1`] = `
+<el-card-stub
+  class="login-form"
+>
+  <div>
+    LOGIN
+  </div>
+   
+  <div>
+    <el-form-stub
+      labelsuffix=""
+      model="[object Object]"
+      rules="[object Object]"
+      showmessage="true"
+      validateonrulechange="true"
+    >
+      <el-form-item-stub
+        inlinemessage=""
+        label="ID"
+        prop="id"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-id"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-form-item-stub
+        inlinemessage=""
+        label="PASSWORD"
+        prop="password"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-password"
+          showpassword="true"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-row-stub
+        align="top"
+        class="button-area"
+        justify="start"
+        tag="div"
+      >
+        <el-button-stub
+          class="login-btn"
+          disabled="true"
+          icon=""
+          nativetype="button"
+          type="primary"
+        >
+          
+          Login
+        
+        </el-button-stub>
+      </el-row-stub>
+    </el-form-stub>
+  </div>
+</el-card-stub>
+`;
+
+exports[`Login.vue lifecycle hooks beforeUpdate callback 第1引数 isValid がバリデーション正常(true)ならプロパティ validationResult に true を設定すること 1`] = `
+<el-card-stub
+  class="login-form"
+>
+  <div>
+    LOGIN
+  </div>
+   
+  <div>
+    <el-form-stub
+      labelsuffix=""
+      model="[object Object]"
+      rules="[object Object]"
+      showmessage="true"
+      validateonrulechange="true"
+    >
+      <el-form-item-stub
+        inlinemessage=""
+        label="ID"
+        prop="id"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-id"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-form-item-stub
+        inlinemessage=""
+        label="PASSWORD"
+        prop="password"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-password"
+          showpassword="true"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-row-stub
+        align="top"
+        class="button-area"
+        justify="start"
+        tag="div"
+      >
+        <el-button-stub
+          class="login-btn"
+          icon=""
+          nativetype="button"
+          type="primary"
+        >
+          
+          Login
+        
+        </el-button-stub>
+      </el-row-stub>
+    </el-form-stub>
+  </div>
+</el-card-stub>
+`;
+
+exports[`Login.vue lifecycle hooks beforeUpdate コールバックを引数にフォームのバリデーションを実施すること 1`] = `
+<el-card-stub
+  class="login-form"
+>
+  <div>
+    LOGIN
+  </div>
+   
+  <div>
+    <el-form-stub
+      labelsuffix=""
+      model="[object Object]"
+      rules="[object Object]"
+      showmessage="true"
+      validateonrulechange="true"
+    >
+      <el-form-item-stub
+        inlinemessage=""
+        label="ID"
+        prop="id"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-id"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-form-item-stub
+        inlinemessage=""
+        label="PASSWORD"
+        prop="password"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-password"
+          showpassword="true"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-row-stub
+        align="top"
+        class="button-area"
+        justify="start"
+        tag="div"
+      >
+        <el-button-stub
+          class="login-btn"
+          disabled="true"
+          icon=""
+          nativetype="button"
+          type="primary"
+        >
+          
+          Login
+        
+        </el-button-stub>
+      </el-row-stub>
+    </el-form-stub>
+  </div>
+</el-card-stub>
+`;
+
+exports[`Login.vue 初期化 $data プロパティ loginModel にデフォルト値を設定すること 1`] = `
+<el-card-stub
+  class="login-form"
+>
+  <div>
+    LOGIN
+  </div>
+   
+  <div>
+    <el-form-stub
+      labelsuffix=""
+      model="[object Object]"
+      rules="[object Object]"
+      showmessage="true"
+      validateonrulechange="true"
+    >
+      <el-form-item-stub
+        inlinemessage=""
+        label="ID"
+        prop="id"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-id"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-form-item-stub
+        inlinemessage=""
+        label="PASSWORD"
+        prop="password"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-password"
+          showpassword="true"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-row-stub
+        align="top"
+        class="button-area"
+        justify="start"
+        tag="div"
+      >
+        <el-button-stub
+          class="login-btn"
+          disabled="true"
+          icon=""
+          nativetype="button"
+          type="primary"
+        >
+          
+          Login
+        
+        </el-button-stub>
+      </el-row-stub>
+    </el-form-stub>
+  </div>
+</el-card-stub>
+`;
+
+exports[`Login.vue 初期化 $data プロパティ validationResult に false を設定すること 1`] = `
+<el-card-stub
+  class="login-form"
+>
+  <div>
+    LOGIN
+  </div>
+   
+  <div>
+    <el-form-stub
+      labelsuffix=""
+      model="[object Object]"
+      rules="[object Object]"
+      showmessage="true"
+      validateonrulechange="true"
+    >
+      <el-form-item-stub
+        inlinemessage=""
+        label="ID"
+        prop="id"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-id"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-form-item-stub
+        inlinemessage=""
+        label="PASSWORD"
+        prop="password"
+        showmessage="true"
+      >
+        <el-input-stub
+          autocomplete="off"
+          class="login-password"
+          showpassword="true"
+          type="text"
+          validateevent="true"
+          value=""
+        />
+      </el-form-item-stub>
+       
+      <el-row-stub
+        align="top"
+        class="button-area"
+        justify="start"
+        tag="div"
+      >
+        <el-button-stub
+          class="login-btn"
+          disabled="true"
+          icon=""
+          nativetype="button"
+          type="primary"
+        >
+          
+          Login
+        
+        </el-button-stub>
+      </el-row-stub>
+    </el-form-stub>
+  </div>
+</el-card-stub>
+`;
+
+exports[`Login.vue 初期化 template ログインボタン 不活性であること 1`] = `
+<div
+  class="el-card login-form is-always-shadow"
+>
+  <!---->
+  <div
+    class="el-card__body"
+  >
+    <div>
+      LOGIN
+    </div>
+     
+    <div>
+      <form
+        class="el-form"
+      >
+        <div
+          class="el-form-item is-required"
+        >
+          <label
+            class="el-form-item__label"
+            for="id"
+          >
+            ID
+          </label>
+          <div
+            class="el-form-item__content"
+          >
+            <div
+              class="login-id el-input"
+            >
+              <!---->
+              <input
+                autocomplete="off"
+                class="el-input__inner"
+                type="text"
+              />
+              <!---->
+              <!---->
+              <!---->
+              <!---->
+            </div>
+            <!---->
+          </div>
+        </div>
+         
+        <div
+          class="el-form-item is-required"
+        >
+          <label
+            class="el-form-item__label"
+            for="password"
+          >
+            PASSWORD
+          </label>
+          <div
+            class="el-form-item__content"
+          >
+            <div
+              class="login-password el-input el-input--suffix"
+            >
+              <!---->
+              <input
+                autocomplete="off"
+                class="el-input__inner"
+                type="password"
+              />
+              <!---->
+              <span
+                class="el-input__suffix"
+              >
+                <span
+                  class="el-input__suffix-inner"
+                >
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                </span>
+                <!---->
+              </span>
+              <!---->
+              <!---->
+            </div>
+            <!---->
+          </div>
+        </div>
+         
+        <div
+          class="button-area el-row"
+        >
+          <button
+            class="el-button login-btn el-button--primary is-disabled"
+            disabled="disabled"
+            type="button"
+          >
+            <!---->
+            <!---->
+            <span>
+              
+          Login
+        
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Login.vue 初期化 template 入力フィールド(ID) 値が空であること 1`] = `
+<div
+  class="el-card login-form is-always-shadow"
+>
+  <!---->
+  <div
+    class="el-card__body"
+  >
+    <div>
+      LOGIN
+    </div>
+     
+    <div>
+      <form
+        class="el-form"
+      >
+        <div
+          class="el-form-item is-required"
+        >
+          <label
+            class="el-form-item__label"
+            for="id"
+          >
+            ID
+          </label>
+          <div
+            class="el-form-item__content"
+          >
+            <div
+              class="login-id el-input"
+            >
+              <!---->
+              <input
+                autocomplete="off"
+                class="el-input__inner"
+                type="text"
+              />
+              <!---->
+              <!---->
+              <!---->
+              <!---->
+            </div>
+            <!---->
+          </div>
+        </div>
+         
+        <div
+          class="el-form-item is-required"
+        >
+          <label
+            class="el-form-item__label"
+            for="password"
+          >
+            PASSWORD
+          </label>
+          <div
+            class="el-form-item__content"
+          >
+            <div
+              class="login-password el-input el-input--suffix"
+            >
+              <!---->
+              <input
+                autocomplete="off"
+                class="el-input__inner"
+                type="password"
+              />
+              <!---->
+              <span
+                class="el-input__suffix"
+              >
+                <span
+                  class="el-input__suffix-inner"
+                >
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                </span>
+                <!---->
+              </span>
+              <!---->
+              <!---->
+            </div>
+            <!---->
+          </div>
+        </div>
+         
+        <div
+          class="button-area el-row"
+        >
+          <button
+            class="el-button login-btn el-button--primary is-disabled"
+            disabled="disabled"
+            type="button"
+          >
+            <!---->
+            <!---->
+            <span>
+              
+          Login
+        
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Login.vue 初期化 template 入力フィールド(PASSWORD) 値が空であること 1`] = `
+<div
+  class="el-card login-form is-always-shadow"
+>
+  <!---->
+  <div
+    class="el-card__body"
+  >
+    <div>
+      LOGIN
+    </div>
+     
+    <div>
+      <form
+        class="el-form"
+      >
+        <div
+          class="el-form-item is-required"
+        >
+          <label
+            class="el-form-item__label"
+            for="id"
+          >
+            ID
+          </label>
+          <div
+            class="el-form-item__content"
+          >
+            <div
+              class="login-id el-input"
+            >
+              <!---->
+              <input
+                autocomplete="off"
+                class="el-input__inner"
+                type="text"
+              />
+              <!---->
+              <!---->
+              <!---->
+              <!---->
+            </div>
+            <!---->
+          </div>
+        </div>
+         
+        <div
+          class="el-form-item is-required"
+        >
+          <label
+            class="el-form-item__label"
+            for="password"
+          >
+            PASSWORD
+          </label>
+          <div
+            class="el-form-item__content"
+          >
+            <div
+              class="login-password el-input el-input--suffix"
+            >
+              <!---->
+              <input
+                autocomplete="off"
+                class="el-input__inner"
+                type="password"
+              />
+              <!---->
+              <span
+                class="el-input__suffix"
+              >
+                <span
+                  class="el-input__suffix-inner"
+                >
+                  <!---->
+                  <!---->
+                  <!---->
+                  <!---->
+                </span>
+                <!---->
+              </span>
+              <!---->
+              <!---->
+            </div>
+            <!---->
+          </div>
+        </div>
+         
+        <div
+          class="button-area el-row"
+        >
+          <button
+            class="el-button login-btn el-button--primary is-disabled"
+            disabled="disabled"
+            type="button"
+          >
+            <!---->
+            <!---->
+            <span>
+              
+          Login
+        
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;
